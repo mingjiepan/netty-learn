@@ -41,7 +41,6 @@ public class EchoClient {
         } finally {
             group.shutdownGracefully().sync();
         }
-
     }
 
     public static void main(String[] args) throws Exception {
